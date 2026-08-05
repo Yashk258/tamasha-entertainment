@@ -5,7 +5,7 @@ import { Reveal } from "@/components/motion/Reveal";
 import { SectionHeading } from "@/components/sections/SectionHeading";
 import { WHY_TAMASHA } from "@/data/site";
 
-const ICONS = [ShieldCheck, Mic2, Sparkles, HeartHandshake, BadgeIndianRupee, Camera];
+const ICONS = [ShieldCheck, Mic2, Sparkles, HeartHandshake, BadgeIndianRupee, Camera] as const;
 
 export function WhyTamasha() {
   return (
@@ -18,7 +18,7 @@ export function WhyTamasha() {
         />
         <div className="mt-14 grid gap-px overflow-hidden rounded-3xl border border-white/10 bg-white/10 sm:grid-cols-2 lg:grid-cols-3">
           {WHY_TAMASHA.map((item, i) => {
-            const Icon = ICONS[i % ICONS.length];
+            const Icon = ICONS[i % ICONS.length] ?? ShieldCheck;
             return (
               <Reveal key={item.title} delay={i * 0.06}>
                 <motion.div
