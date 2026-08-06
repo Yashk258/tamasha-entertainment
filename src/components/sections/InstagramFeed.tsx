@@ -43,7 +43,7 @@ export function InstagramFeed() {
                 <span className="absolute inset-0 grid place-items-center bg-background/70 opacity-0 backdrop-blur-[2px] transition-opacity duration-400 group-hover:opacity-100">
                   <span className="flex flex-col items-center gap-1.5 text-center">
                     <span className="flex items-center gap-1.5 font-semibold">
-                      <Heart className="h-4 w-4 fill-brand-pink text-brand-pink" />
+                      <Heart className="h-4 w-4 fill-brand-orange text-brand-orange" />
                       {post.likes}
                     </span>
                     <span className="px-3 text-[11px] text-muted-foreground">{post.caption}</span>

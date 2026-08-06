@@ -25,14 +25,14 @@ export function MagneticButton({
 }: Props) {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  const sx = useSpring(x, { stiffness: 250, damping: 16 });
-  const sy = useSpring(y, { stiffness: 250, damping: 16 });
+  const sx = useSpring(x, { stiffness: 140, damping: 20, mass: 0.6 });
+  const sy = useSpring(y, { stiffness: 140, damping: 20, mass: 0.6 });
 
   const base = cn(
-    "group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide transition-colors",
+    "group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full px-8 py-4 text-sm font-semibold tracking-[0.02em] transition-colors duration-500",
     variant === "primary"
       ? "text-primary-foreground glow-ring"
-      : "glass text-foreground hover:border-white/30",
+      : "glass text-foreground hover:border-brand-gold/40 hover:text-brand-gold",
     className,
   );
 
@@ -41,12 +41,16 @@ export function MagneticButton({
       {variant === "primary" && (
         <span
           aria-hidden
-          className="absolute inset-0 -z-10 bg-[image:var(--gradient-brand)] bg-[length:200%_200%] transition-[background-position] duration-700 group-hover:bg-[position:100%_50%]"
+          className="absolute inset-0 -z-10 bg-[image:var(--gradient-brand)] bg-[length:220%_220%] transition-[background-position] duration-[1.1s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:bg-[position:100%_50%]"
         />
       )}
       <span
         aria-hidden
-        className="absolute inset-0 -z-10 translate-y-full bg-white/15 transition-transform duration-500 group-hover:translate-y-0"
+        className="absolute inset-0 -z-10 translate-y-full bg-white/12 transition-transform duration-[0.9s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:translate-y-0"
+      />
+      <span
+        aria-hidden
+        className="pointer-events-none absolute inset-y-0 -left-1/3 w-1/3 -skew-x-12 bg-white/25 opacity-0 blur-md transition-all duration-[1.1s] ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:left-[110%] group-hover:opacity-100"
       />
       {children}
     </>

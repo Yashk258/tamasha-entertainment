@@ -8,9 +8,9 @@ import type { Experience } from "@/data/site";
 
 const ACCENT: Record<Experience["accent"], string> = {
   brand: "var(--brand)",
-  pink: "var(--brand-pink)",
+  pink: "var(--brand-orange)",
   cyan: "var(--brand-cyan)",
-  amber: "var(--brand-amber)",
+  amber: "var(--brand-gold)",
 };
 
 export function ExperienceCard({ item }: { item: Experience }) {
@@ -19,7 +19,7 @@ export function ExperienceCard({ item }: { item: Experience }) {
 
   return (
     <TiltCard className="h-full">
-      <article className="group glass hover-lift relative flex h-full flex-col overflow-hidden rounded-3xl">
+      <article className="group card-lux relative flex h-full flex-col overflow-hidden rounded-3xl">
         <div className="relative aspect-[4/3] overflow-hidden">
           <img
             src={img(item.image)}
@@ -67,11 +67,11 @@ export function ExperienceCard({ item }: { item: Experience }) {
 
           <dl className="mt-5 flex flex-wrap gap-x-5 gap-y-2 text-xs text-muted-foreground">
             <div className="flex items-center gap-1.5">
-              <CalendarDays className="h-3.5 w-3.5 text-brand-cyan" />
+              <CalendarDays className="h-3.5 w-3.5 text-brand-gold" />
               {item.date}
             </div>
             <div className="flex items-center gap-1.5">
-              <MapPin className="h-3.5 w-3.5 text-brand-cyan" />
+              <MapPin className="h-3.5 w-3.5 text-brand-gold" />
               {item.venue}, {item.city}
             </div>
           </dl>

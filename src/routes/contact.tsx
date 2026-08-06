@@ -88,17 +88,17 @@ function ContactPage() {
               <div className="glass rounded-3xl p-8">
                 <ul className="space-y-5 text-sm">
                   <li className="flex gap-3">
-                    <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-brand-cyan" />
+                    <MapPin className="mt-0.5 h-5 w-5 shrink-0 text-brand-gold" />
                     <span className="text-muted-foreground">{SITE.address}</span>
                   </li>
                   <li className="flex gap-3">
-                    <Phone className="h-5 w-5 text-brand-cyan" />
+                    <Phone className="h-5 w-5 text-brand-gold" />
                     <a href={`tel:${SITE.phone}`} className="text-muted-foreground hover:text-foreground">
                       {SITE.phone}
                     </a>
                   </li>
                   <li className="flex gap-3">
-                    <Mail className="h-5 w-5 text-brand-cyan" />
+                    <Mail className="h-5 w-5 text-brand-gold" />
                     <a
                       href={`mailto:${SITE.email}`}
                       className="text-muted-foreground hover:text-foreground"
@@ -107,7 +107,7 @@ function ContactPage() {
                     </a>
                   </li>
                   <li className="flex gap-3">
-                    <Clock className="h-5 w-5 text-brand-cyan" />
+                    <Clock className="h-5 w-5 text-brand-gold" />
                     <span className="text-muted-foreground">Mon–Sat, 10:00–20:00 IST</span>
                   </li>
                 </ul>

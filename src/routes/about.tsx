@@ -88,7 +88,7 @@ function AboutPage() {
                   ["2026", "Tamasha Premium Experiences launches for private clients."],
                 ].map(([year, text]) => (
                   <li key={year} className="flex gap-5">
-                    <span className="font-display text-sm font-bold text-brand-cyan">{year}</span>
+                    <span className="font-display text-sm font-bold text-brand-gold">{year}</span>
                     <span className="text-sm text-muted-foreground">{text}</span>
                   </li>
                 ))}
@@ -102,7 +102,7 @@ function AboutPage() {
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {TEAM.map((m, i) => (
               <Reveal key={m.name} delay={i * 0.06}>
-                <div className="glass hover-lift rounded-3xl p-6">
+                <div className="card-lux rounded-3xl p-6">
                   <span className="grid h-14 w-14 place-items-center rounded-2xl bg-[image:var(--gradient-brand)] font-display text-xl font-bold">
                     {m.name.charAt(0)}
                   </span>
