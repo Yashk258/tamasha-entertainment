@@ -38,7 +38,7 @@ function BlogPage() {
         <div className="grid gap-6 md:grid-cols-2">
           {POSTS.map((post, i) => (
             <Reveal key={post.slug} delay={i * 0.07}>
-              <article className="group glass hover-lift overflow-hidden rounded-3xl">
+              <article className="group card-lux overflow-hidden rounded-3xl">
                 <div className="relative aspect-[16/9] overflow-hidden">
                   <img
                     src={img(post.image)}

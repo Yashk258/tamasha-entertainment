@@ -100,7 +100,7 @@ export function Testimonials() {
               { k: "92%", v: "Guests who book a second Tamasha experience" },
               { k: "48 hrs", v: "Average turnaround for event films and photos" },
             ].map((s) => (
-              <div key={s.k} className="glass hover-lift rounded-3xl p-6">
+              <div key={s.k} className="card-lux rounded-3xl p-6">
                 <p className="font-display text-4xl font-bold text-gradient">{s.k}</p>
                 <p className="mt-2 text-sm text-muted-foreground">{s.v}</p>
               </div>

@@ -19,7 +19,7 @@ export function ExperienceCard({ item }: { item: Experience }) {
 
   return (
     <TiltCard className="h-full">
-      <article className="group glass hover-lift relative flex h-full flex-col overflow-hidden rounded-3xl">
+      <article className="group card-lux relative flex h-full flex-col overflow-hidden rounded-3xl">
         <div className="relative aspect-[4/3] overflow-hidden">
           <img
             src={img(item.image)}
