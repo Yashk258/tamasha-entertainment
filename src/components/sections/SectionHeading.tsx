@@ -16,8 +16,8 @@ export function SectionHeading({
     <div className="flex flex-col justify-between gap-8 lg:flex-row lg:items-end">
       <div className="max-w-2xl">
         <Reveal>
-          <span className="inline-flex items-center gap-2 text-[11px] font-semibold tracking-[0.32em] text-brand-cyan">
-            <span className="h-px w-8 bg-brand-cyan" />
+          <span className="inline-flex items-center gap-2 text-[11px] font-semibold tracking-[0.32em] text-brand-gold">
+            <span className="h-px w-8 bg-brand-gold" />
             {eyebrow}
           </span>
         </Reveal>

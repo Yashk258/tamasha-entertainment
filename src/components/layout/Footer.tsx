@@ -35,7 +35,7 @@ export function Footer() {
                   href={s.href}
                   target="_blank"
                   rel="noreferrer"
-                  className="glass inline-flex items-center gap-1 rounded-full px-4 py-2 text-xs font-medium transition-colors hover:border-white/30 hover:text-brand-pink"
+                  className="glass inline-flex items-center gap-1 rounded-full px-4 py-2 text-xs font-medium transition-colors hover:border-white/30 hover:text-brand-orange"
                 >
                   {s.label}
                   <ArrowUpRight className="h-3 w-3" />
@@ -123,17 +123,17 @@ export function Footer() {
             </form>
             <ul className="mt-6 space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand-cyan" />
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand-gold" />
                 {SITE.address}
               </li>
               <li className="flex items-center gap-2">
-                <Phone className="h-4 w-4 text-brand-cyan" />
+                <Phone className="h-4 w-4 text-brand-gold" />
                 <a href={`tel:${SITE.phone}`} className="hover:text-foreground">
                   {SITE.phone}
                 </a>
               </li>
               <li className="flex items-center gap-2">
-                <Mail className="h-4 w-4 text-brand-cyan" />
+                <Mail className="h-4 w-4 text-brand-gold" />
                 <a href={`mailto:${SITE.email}`} className="hover:text-foreground">
                   {SITE.email}
                 </a>

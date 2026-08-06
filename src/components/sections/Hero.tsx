@@ -64,7 +64,7 @@ export function Hero() {
             NEXT UP
           </span>
           <span className="text-muted-foreground">
-            NYE Skyline · Goa · <span className="text-brand-amber">42 passes left</span>
+            NYE Skyline · Goa · <span className="text-brand-gold">42 passes left</span>
           </span>
         </motion.div>
 

@@ -16,7 +16,7 @@ export function PageHeader({
       <GridBackdrop />
       <div className="relative mx-auto max-w-7xl px-6">
         <Reveal>
-          <span className="glass inline-flex rounded-full px-4 py-1.5 text-[11px] font-semibold tracking-[0.28em] text-brand-cyan">
+          <span className="glass inline-flex rounded-full px-4 py-1.5 text-[11px] font-semibold tracking-[0.28em] text-brand-gold">
             {eyebrow}
           </span>
         </Reveal>

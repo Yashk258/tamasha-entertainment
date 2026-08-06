@@ -34,7 +34,7 @@ export function WhyTamasha() {
                     style={{ background: "var(--gradient-brand)" }}
                   />
                   <span className="relative grid h-12 w-12 place-items-center rounded-2xl border border-white/10 bg-white/5 transition-colors duration-500 group-hover:border-brand/60">
-                    <Icon className="h-5 w-5 text-brand-cyan transition-colors group-hover:text-brand-pink" />
+                    <Icon className="h-5 w-5 text-brand-gold transition-colors group-hover:text-brand-orange" />
                   </span>
                   <h3 className="relative mt-7 font-display text-xl font-bold">{item.title}</h3>
                   <p className="relative mt-3 text-sm leading-relaxed text-muted-foreground">

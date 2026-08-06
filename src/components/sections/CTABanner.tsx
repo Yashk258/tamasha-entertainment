@@ -9,7 +9,7 @@ export function CTABanner() {
         <Aurora className="opacity-80" />
         <div className="relative">
           <Reveal>
-            <span className="glass inline-flex rounded-full px-4 py-1.5 text-[11px] font-semibold tracking-[0.28em] text-brand-amber">
+            <span className="glass inline-flex rounded-full px-4 py-1.5 text-[11px] font-semibold tracking-[0.28em] text-brand-gold">
               LIMITED CAPACITY
             </span>
           </Reveal>

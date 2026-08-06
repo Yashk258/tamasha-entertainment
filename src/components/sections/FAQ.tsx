@@ -29,7 +29,7 @@ export function FAQ() {
                     aria-expanded={isOpen}
                     className="group flex w-full items-center justify-between gap-6 py-6 text-left"
                   >
-                    <span className="font-display text-lg font-semibold transition-colors group-hover:text-brand-pink sm:text-2xl">
+                    <span className="font-display text-lg font-semibold transition-colors group-hover:text-brand-orange sm:text-2xl">
                       {item.q}
                     </span>
                     <motion.span

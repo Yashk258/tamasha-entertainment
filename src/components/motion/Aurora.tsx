@@ -7,11 +7,11 @@ export function Aurora({ className = "" }: { className?: string }) {
       />
       <div
         className="aurora-blob top-1/3 -right-32 h-[32rem] w-[32rem]"
-        style={{ background: "var(--brand-pink)", animationDelay: "-5s" }}
+        style={{ background: "var(--brand-orange)", animationDelay: "-5s" }}
       />
       <div
         className="aurora-blob -bottom-40 left-1/3 h-[30rem] w-[30rem]"
-        style={{ background: "var(--brand-cyan)", animationDelay: "-9s", opacity: 0.35 }}
+        style={{ background: "var(--brand-gold)", animationDelay: "-9s", opacity: 0.35 }}
       />
     </div>
   );

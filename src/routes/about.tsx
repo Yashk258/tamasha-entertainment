@@ -88,7 +88,7 @@ function AboutPage() {
                   ["2026", "Tamasha Premium Experiences launches for private clients."],
                 ].map(([year, text]) => (
                   <li key={year} className="flex gap-5">
-                    <span className="font-display text-sm font-bold text-brand-cyan">{year}</span>
+                    <span className="font-display text-sm font-bold text-brand-gold">{year}</span>
                     <span className="text-sm text-muted-foreground">{text}</span>
                   </li>
                 ))}

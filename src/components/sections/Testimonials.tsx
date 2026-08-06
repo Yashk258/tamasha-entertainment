@@ -31,7 +31,7 @@ export function Testimonials() {
 
         <div className="mt-14 grid gap-6 lg:grid-cols-[1.5fr_1fr]">
           <div className="glass relative min-h-[22rem] overflow-hidden rounded-3xl p-8 sm:p-12">
-            <Quote className="h-10 w-10 text-brand-pink/50" />
+            <Quote className="h-10 w-10 text-brand-orange/50" />
             <AnimatePresence mode="wait" custom={dir}>
               <motion.blockquote
                 key={index}
@@ -54,7 +54,7 @@ export function Testimonials() {
                   </span>
                   <span className="ml-auto flex gap-0.5">
                     {Array.from({ length: active.rating }).map((_, i) => (
-                      <Star key={i} className="h-4 w-4 fill-brand-amber text-brand-amber" />
+                      <Star key={i} className="h-4 w-4 fill-brand-gold text-brand-gold" />
                     ))}
                   </span>
                 </footer>

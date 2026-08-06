@@ -50,9 +50,9 @@ function BlogPage() {
                 <div className="p-7">
                   <p className="flex gap-3 text-[11px] tracking-[0.2em] text-muted-foreground uppercase">
                     <span>{post.date}</span>
-                    <span className="text-brand-cyan">{post.read}</span>
+                    <span className="text-brand-gold">{post.read}</span>
                   </p>
-                  <h2 className="mt-4 font-display text-2xl leading-tight font-bold transition-colors group-hover:text-brand-pink">
+                  <h2 className="mt-4 font-display text-2xl leading-tight font-bold transition-colors group-hover:text-brand-orange">
                     {post.title}
                   </h2>
                   <p className="mt-3 text-sm text-muted-foreground">{post.excerpt}</p>
