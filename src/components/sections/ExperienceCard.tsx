@@ -9,7 +9,7 @@ import type { Experience } from "@/data/site";
 const ACCENT: Record<Experience["accent"], string> = {
   brand: "var(--brand)",
   pink: "var(--brand-orange)",
-  cyan: "var(--brand-gold)",
+  cyan: "var(--brand-cyan)",
   amber: "var(--brand-gold)",
 };
 
