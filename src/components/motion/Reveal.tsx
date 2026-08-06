@@ -16,7 +16,7 @@ export function Reveal({ children, delay = 0, y = 28, blur = true, className }: 
       initial={{ opacity: 0, y, filter: blur ? "blur(12px)" : "blur(0px)" }}
       whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       viewport={{ once: true, margin: "-80px" }}
-      transition={{ duration: 0.8, delay, ease: [0.16, 1, 0.3, 1] }}
+      transition={{ duration: 1.1, delay, ease: [0.22, 1, 0.36, 1] }}
     >
       {children}
     </motion.div>
@@ -34,7 +34,7 @@ export function RevealText({ text, className }: { text: string; className?: stri
             initial={{ y: "110%" }}
             whileInView={{ y: 0 }}
             viewport={{ once: true, margin: "-60px" }}
-            transition={{ duration: 0.9, delay: i * 0.06, ease: [0.16, 1, 0.3, 1] }}
+            transition={{ duration: 1.15, delay: i * 0.07, ease: [0.22, 1, 0.36, 1] }}
           >
             {word}
             {i < words.length - 1 ? "\u00A0" : ""}

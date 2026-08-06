@@ -4,7 +4,7 @@ import type { ReactNode } from "react";
 export function TiltCard({
   children,
   className = "",
-  intensity = 8,
+  intensity = 5,
 }: {
   children: ReactNode;
   className?: string;
@@ -12,8 +12,8 @@ export function TiltCard({
 }) {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
-  const rx = useSpring(y, { stiffness: 180, damping: 18 });
-  const ry = useSpring(x, { stiffness: 180, damping: 18 });
+  const rx = useSpring(y, { stiffness: 90, damping: 20, mass: 0.7 });
+  const ry = useSpring(x, { stiffness: 90, damping: 20, mass: 0.7 });
   const transform = useMotionTemplate`perspective(1000px) rotateX(${rx}deg) rotateY(${ry}deg)`;
 
   return (
