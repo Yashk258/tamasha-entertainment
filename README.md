@@ -1,750 +1,362 @@
-# Tamasha Magic
+# 🎭 Tamasha Entertainment
 
-You are a Senior UI/UX Designer, Brand Designer, Product Designer and Senior Frontend Engineer with 15+ years of experience creating award-winning websites.
+> **We don't organize events. We create unforgettable memories.**
 
-Your task is to create a WORLD CLASS website for an event management startup named:
+Tamasha Entertainment is a premium event and experience management platform built to transform ordinary events into unforgettable experiences.
 
-TAMASHA ENTERTAINMENT
+From **Holi Festivals and Dandiya Nights** to **Live Concerts, College Fests, Weddings, Corporate Events, and Private Celebrations**, Tamasha creates experiences designed around entertainment, energy, community, and memories.
 
-The company organizes experiences instead of just events.
+---
 
-Examples:
+## ✨ About the Project
 
-• Holi Festival
+**Tamasha Entertainment** is a modern, immersive event-management website designed to feel more like a premium entertainment brand than a traditional event company.
 
-• Dandiya Night
+The platform focuses on:
 
-• New Year Party
+* 🎟️ Event discovery and ticket bookings
+* 🎉 Premium event experiences
+* 📸 Social engagement and sharing
+* 🤝 Sponsor and partner visibility
+* 📍 Event locations and information
+* 📱 Responsive mobile-first experience
+* 🚀 High-performance modern UI
 
-• DJ Night
+The visual direction combines the energy of premium entertainment platforms with a futuristic, cinematic interface.
 
-• Live Concert
+---
 
-• College Fest
+## 🎨 Design Philosophy
 
-• Corporate Events
+The website follows a:
 
-• Wedding Events
+* Modern
+* Minimal
+* Luxury
+* Futuristic
+* Immersive
+* Cinematic
+* Dark
+* Glassmorphic
 
-• Birthday Parties
+design language.
 
-• Private Parties
+### Color Palette
 
-• Food Festival
+| Color     | Usage        |
+| --------- | ------------ |
+| `#7C3AED` | Primary      |
+| `#EC4899` | Secondary    |
+| `#06B6D4` | Accent       |
+| `#F59E0B` | Highlight    |
+| `#050505` | Background   |
+| `#111111` | Surface      |
+| `#FFFFFF` | Primary Text |
+| `#A1A1AA` | Muted Text   |
 
-• Cultural Festival
+---
 
-• Kids Carnival
+## 🚀 Features
 
-• Celebrity Shows
+### 🏠 Premium Homepage
 
-• Music Festival
+* Floating transparent navigation
+* Cinematic hero section
+* Animated typography
+* Event highlights
+* Upcoming experiences
+* Live counters
+* Interactive CTAs
+* Smooth scrolling
+* Scroll-based animations
 
-• Future Premium Experiences
+### 🎟️ Event Discovery
 
-The brand should feel like:
+Browse experiences across categories such as:
 
-Apple × Tomorrowland × BookMyShow × Red Bull × Airbnb Experiences
+* Holi Festival
+* Dandiya Night
+* New Year Party
+* DJ Night
+* Live Concert
+* College Fest
+* Corporate Events
+* Weddings
+* Birthday Parties
+* Food Festivals
+* Cultural Festivals
+* Kids Carnival
+* Celebrity Shows
+* Music Festivals
+* Private Events
 
-NOT like a traditional event management company.
+### 🖼️ Gallery
 
-The website must instantly make users excited and create FOMO.
+* Masonry-style layout
+* Image hover effects
+* Video previews
+* Lightbox experience
+* Interactive media presentation
 
-The website should communicate:
+### 📊 Statistics
 
-"We don't organize events.
+Animated statistics showcasing:
 
-We create unforgettable memories."
+* Events Conducted
+* Happy Guests
+* Cities Covered
+* Years of Experience
+* Sponsors & Partners
 
-----------------------------------------------------
+### 💬 Testimonials
 
-GOAL
+* Customer testimonials
+* Ratings
+* Glassmorphism cards
+* Animated carousel
+* Social proof
 
-----------------------------------------------------
+### ❓ FAQ
 
-Design a premium startup website capable of competing with international brands.
+Interactive accordion containing frequently asked questions about events, bookings, tickets, and experiences.
 
-The website should increase:
+### 📩 Contact & Booking
 
-• Ticket Sales
+* Event booking CTA
+* Contact form
+* Newsletter subscription
+* Social media links
+* WhatsApp contact
+* Location information
 
-• Brand Trust
+---
 
-• Social Sharing
+## 🧩 Website Structure
 
-• User Engagement
+```text
+src/
+├── assets/
+├── components/
+├── pages/
+├── hooks/
+├── utils/
+├── animations/
+├── constants/
+├── data/
+├── styles/
+└── routes/
+```
 
-• Event Registrations
+### Pages
 
-• Sponsor Interest
-
-Everything should feel premium.
-
-----------------------------------------------------
-
-DESIGN STYLE
-
-----------------------------------------------------
-
-Modern
-
-Minimal
-
-Luxury
-
-Futuristic
-
-Immersive
-
-Bold Typography
-
-Glassmorphism
-
-Gradient Lighting
-
-Aurora Effects
-
-Neon Accents
-
-Dark Theme
-
-Cinematic
-
-Premium Animations
-
-No template-looking UI.
-
-Every section should feel unique.
-
-----------------------------------------------------
-
-COLOR PALETTE
-
-----------------------------------------------------
-
-Primary:
-
-#7C3AED
-
-Secondary:
-
-#EC4899
-
-Accent:
-
-#06B6D4
-
-Highlight:
-
-#F59E0B
-
-Background:
-
-#050505
-
-Surface:
-
-#111111
-
-Cards:
-
-rgba(255,255,255,0.05)
-
-Text:
-
-#FFFFFF
-
-Muted:
-
-#A1A1AA
-
-----------------------------------------------------
-
-TYPOGRAPHY
-
-----------------------------------------------------
-
-Use:
-
-Space Grotesk
-
-or
-
-Clash Display
-
-Body:
-
-Inter
-
-Huge Headlines
-
-Big Hero Text
-
-Strong Visual Hierarchy
-
-----------------------------------------------------
-
-TECH STACK
-
-----------------------------------------------------
-
-React
-
-Vite
-
-TailwindCSS
-
-Framer Motion
-
-Lenis Smooth Scroll
-
-GSAP where necessary
-
-Lucide Icons
-
-Swiper
-
-React CountUp
-
-React Intersection Observer
-
-Responsive Design
-
-Lazy Loading
-
-Code Splitting
-
-SEO Optimized
-
-Accessibility
-
-Production Ready
-
-----------------------------------------------------
-
-WEBSITE STRUCTURE
-
-----------------------------------------------------
-
-Create these sections:
-
-1.
-
-Premium Floating Navbar
-
-Transparent
-
-Blur Effect
-
-Logo
-
-Animated Links
-
-Book Event Button
-
-Mobile Menu
-
-Sticky
-
-----------------------------------------------------
-
-2.
-
-Full Screen Hero
-
-100vh
-
-Background:
-
-Animated video or cinematic event collage
-
-Large Heading
-
-Example:
-
-CREATE MEMORIES
-
-THAT LAST FOREVER
-
-Subheading
-
-CTA Buttons
-
-Watch Reel
-
-Upcoming Event Badge
-
-Live Counter
-
-Animated Scroll Indicator
-
-Mouse Parallax
-
-Particles
-
-Light Effects
-
-----------------------------------------------------
-
-3.
-
-Trusted By
-
-Sponsor Logos
-
-Partner Logos
-
-Media Logos
-
-Infinite Scrolling
-
-----------------------------------------------------
-
-4.
-
-Upcoming Experiences
-
-Beautiful Event Cards
-
-Hover Animation
-
-Tilt Effect
-
-Live Tickets Left
-
-Countdown Timer
-
-Book Now
-
-Category
-
-Location
-
-Date
-
-Price
-
-----------------------------------------------------
-
-5.
-
-Why Choose Tamasha
-
-Interactive Cards
-
-Each card animates on hover.
-
-Examples:
-
-Safe Events
-
-Best Artists
-
-Premium Experience
-
-Professional Management
-
-Affordable
-
-Memories Guaranteed
-
-----------------------------------------------------
-
-6.
-
-Statistics
-
-Creative Animated Counters
-
-Events Conducted
-
-Happy Guests
-
-Cities Covered
-
-Years Experience
-
-Sponsors
-
-Use a premium layout.
-
-NOT boring number cards.
-
-----------------------------------------------------
-
-7.
-
-Gallery
-
-Pinterest Style Masonry
-
-Hover Reveal
-
-Video Thumbnails
-
-Image Zoom
-
-Lightbox
-
-----------------------------------------------------
-
-8.
-
-Event Categories
-
-Interactive Grid
-
-Music Festival
-
-Holi
-
-Dandiya
-
-Wedding
-
-Corporate
-
-Birthday
-
-Concert
-
-Kids
-
-Sports
-
-Private
-
-Each with illustration or background.
-
-----------------------------------------------------
-
-9.
-
-How It Works
-
-Timeline
-
-Step 1
-
-Browse
-
-↓
-
-Book
-
-↓
-
-Attend
-
-↓
-
-Celebrate
-
-Use motion animation.
-
-----------------------------------------------------
-
-10.
-
-Testimonials
-
-Glass Cards
-
-Video Reviews
-
-Ratings
-
-Names
-
-Company
-
-Animated Carousel
-
-----------------------------------------------------
-
-11.
-
-Instagram Feed
-
-Dynamic Layout
-
-Latest Posts
-
-Hover
-
-Like Counter
-
-----------------------------------------------------
-
-12.
-
-FAQ
-
-Animated Accordion
-
-----------------------------------------------------
-
-13.
-
-CTA Banner
-
-Ready For The Next Celebration?
-
-Book Now
-
-----------------------------------------------------
-
-14.
-
-Footer
-
-Beautiful
-
-Social Links
-
-Quick Links
-
-Newsletter
-
-Contact
-
-Copyright
-
-----------------------------------------------------
-
-ANIMATIONS
-
-----------------------------------------------------
-
-Every section should animate.
-
-Use:
-
-Fade Up
-
-Scale
-
-Slide
-
-Blur Reveal
-
-Parallax
-
-Mouse Movement
-
-Magnetic Buttons
-
-Hover Glow
-
-3D Tilt
-
-Scroll Progress
-
-Text Reveal
-
-Image Reveal
-
-Gradient Animation
-
-Floating Elements
-
-----------------------------------------------------
-
-RESPONSIVE
-
-----------------------------------------------------
-
-Desktop
-
-Laptop
-
-Tablet
-
-Mobile
-
-Everything should adapt perfectly.
-
-No horizontal scrolling.
-
-----------------------------------------------------
-
-MICRO INTERACTIONS
-
-----------------------------------------------------
-
-Button Ripple
-
-Button Glow
-
-Hover Lift
-
-Smooth Card Rotation
-
-Floating Icons
-
-Animated Underlines
-
-Cursor Effects
-
-Loading Skeleton
-
-Scroll To Top
-
-Page Transition
-
-----------------------------------------------------
-
-PERFORMANCE
-
-----------------------------------------------------
-
-Lighthouse Score:
-
-95+
-
-SEO
-
-Accessibility
-
-Fast Loading
-
-Image Optimization
-
-Lazy Loading
-
-----------------------------------------------------
-
-SEO
-
-----------------------------------------------------
-
-Meta Tags
-
-Open Graph
-
-Twitter Cards
-
-Schema
-
-Robots
-
-Sitemap
-
-----------------------------------------------------
-
-EXTRA FEATURES
-
-----------------------------------------------------
-
-Dark Theme
-
-Back To Top
-
-Loading Screen
-
-Custom Cursor
-
-Newsletter
-
-WhatsApp Floating Button
-
-Google Maps
-
-Booking CTA
-
-Contact Form
-
-Social Media Links
-
-----------------------------------------------------
-
-OUTPUT FORMAT
-
-----------------------------------------------------
-
-Generate a complete React project.
-
-Create proper folder structure.
-
-Create reusable components.
-
-Separate each section into components.
-
-Use clean architecture.
-
-Create all pages:
-
+```text
 Home
-
 About
-
 Events
-
 Gallery
-
 Blog
-
 Contact
-
 Book Event
-
 Privacy Policy
-
 Terms
-
 404
+```
 
-Create:
+The application follows a component-based architecture with reusable UI components and separated page sections.
 
-assets/
+---
 
-components/
+## 🛠️ Tech Stack
 
-pages/
+### Frontend
 
-hooks/
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
 
-utils/
+### Animation & Interaction
 
-animations/
+* Framer Motion
+* GSAP
+* Lenis Smooth Scroll
+* Swiper
+* React Intersection Observer
+* React CountUp
 
-constants/
+### UI
 
-data/
+* Lucide Icons
+* Responsive layouts
+* Glassmorphism
+* Gradient effects
+* Custom animations
+* Interactive cards
 
-styles/
+### Development
 
-Include dummy data.
+* ESLint
+* Prettier
+* Git
+* GitHub
 
-Everything should be production-ready.
+---
 
-DO NOT skip any section.
+## ⚡ Performance
 
-DO NOT use placeholder UI.
+The project is designed with production performance in mind.
 
-Make every section unique and visually stunning.
+* Lazy loading
+* Code splitting
+* Optimized assets
+* Responsive images
+* Component-based architecture
+* Minimal unnecessary rendering
+* SEO-friendly structure
+* Accessibility considerations
 
-The final website should look like it belongs to a company worth over $100 million.
+Target Lighthouse performance:
 
-This project was built with [Lovable](https://lovable.dev).
+**95+**
 
-## Build with Lovable
+---
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/911b48a2-f864-4042-b29f-f37566bea23c).
+## 📱 Responsive Design
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+The website is optimized for:
 
-## Development
+* Desktop
+* Laptop
+* Tablet
+* Mobile
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+The interface adapts dynamically to different screen sizes while maintaining the visual experience and avoiding horizontal overflow.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+---
+
+## 🎬 Animations & Micro Interactions
+
+The experience includes:
+
+* Fade-up reveals
+* Scale animations
+* Slide transitions
+* Blur reveals
+* Parallax effects
+* Mouse movement
+* Magnetic buttons
+* Hover glow
+* 3D card tilt
+* Gradient animations
+* Image reveals
+* Floating elements
+* Button interactions
+* Scroll progress
+* Page transitions
+* Loading states
+* Back-to-top interaction
+
+---
+
+## 🔍 SEO
+
+The application is structured with SEO in mind, including:
+
+* Meta titles
+* Meta descriptions
+* Open Graph metadata
+* Twitter Cards
+* Semantic HTML
+* Structured content
+* Sitemap support
+* Robots configuration
+
+---
+
+## 📂 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Yashk258/tamasha-entertainment.git
+```
+
+Navigate to the project:
+
+```bash
+cd tamasha-entertainment
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
-#   t a m a s h a - e n t e r t a i n m e n t  
- 
+
+Build for production:
+
+```bash
+npm run build
+```
+
+---
+
+## 🔄 Git Workflow
+
+After making changes:
+
+```bash
+git add .
+git commit -m "Update project"
+git push origin main
+```
+
+---
+
+## 🌐 Deployment
+
+The project can be deployed using modern frontend hosting platforms such as:
+
+* Vercel
+* Netlify
+* Cloudflare Pages
+* Firebase Hosting
+
+---
+
+## 🎯 Future Improvements
+
+Planned improvements include:
+
+* Real-time ticket availability
+* Online payment integration
+* User accounts
+* Event management dashboard
+* Sponsor management
+* Automated ticket generation
+* QR-code based event entry
+* Push notifications
+* Advanced analytics
+* CMS-powered event management
+
+---
+
+## 👨‍💻 Developer
+
+**Yash Kumar**
+
+Computer Science & Engineering
+
+Built with a focus on **modern frontend engineering, UI/UX design, animation, performance, and immersive digital experiences.**
+
+---
+
+## 📄 License
+
+This project is intended for Tamasha Entertainment and its associated digital experiences.
